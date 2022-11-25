@@ -376,6 +376,7 @@ a {
   font-size: 16px;
   font-family: "Playfair Display", "Times New Roman";
   color: rgb(48, 47, 47);
+  font-weight: 600;
 }
 
 .appreciation {
@@ -448,6 +449,10 @@ footer {
     align-items: start;
     justify-content: start;
     line-height: 50px;
+  }
+
+  .nav__link {
+    margin: 10px;
   }
 
   /* hero-content */
@@ -535,5 +540,11 @@ footer {
 
   .appreciation .content {
     padding: 50px 20px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .appreciation {
+    margin-top: 1000px;
   }
 }
