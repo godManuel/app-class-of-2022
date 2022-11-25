@@ -476,6 +476,11 @@ footer {
     text-align: center;
   }
 
+  .comr-img {
+    height: 250px;
+    width: 250px;
+  }
+
   /* the-skills */
   .card {
     margin: 20px 0;
