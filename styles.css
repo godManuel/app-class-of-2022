@@ -166,7 +166,7 @@ a {
   left: 0;
   bottom: 5px;
   height: 200px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   transform: skewY(-5deg);
 }
 
@@ -301,7 +301,7 @@ a {
 
 .images {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px;
 }
 
@@ -314,7 +314,9 @@ a {
 .image-1,
 .image-2,
 .image-3,
-.image-5 {
+.image-5,
+.image-6,
+.image-7 {
   height: 35vh;
 }
 
